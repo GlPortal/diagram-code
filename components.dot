@@ -10,6 +10,7 @@ edge[dir=back, arrowtail=empty]
 6[label = "{Physics Engine}"]
 7[label = "{Scene Graph}"]
 8[label = "{Audio Engine}"]
+9[label = "{Animation Engine}"]
 
 3->2
 4->3
@@ -17,4 +18,5 @@ edge[dir=back, arrowtail=empty]
 6->2
 7->2
 8->2
+9->2
 }
