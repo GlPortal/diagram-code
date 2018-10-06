@@ -1,0 +1,20 @@
+digraph hierarchy {
+size="5,5"
+node[shape=record,style=filled,fillcolor=gray95]
+edge[dir=back, arrowtail=empty]
+
+2[label = "{Engine}"]
+3[label = "{Renderer}"]
+4[label = "{2D Renderer}"]
+5[label = "{3D Renderer}"]
+6[label = "{Physics Engine}"]
+7[label = "{Scene Graph}"]
+8[label = "{Audio Engine}"]
+
+3->2
+4->3
+5->3
+6->2
+7->2
+8->2
+}
